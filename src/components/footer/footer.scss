@@ -1,0 +1,16 @@
+@import "../layout/variables.scss";
+
+footer {
+    height: 15vh;
+    background-color: var(--color-text-dark);
+
+    p{
+        color: white;
+        font-size: 28px;
+        font-family: 'Montserrat';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+@import "../layout/variables.scss";
+
+nav {
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(5px);
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+        font-family: 'Red Hat Display', sans-serif;
+        width: 172px;
+
+        h1{
+            font-size: 56px;
+        }
+        h2{
+            color: var(--color-theme-emphasis);
+            font-size: 36px;
+            transform: translateX(37px) translateY(-26px);
+        }
+    }
+
+    ul{
+        display: flex;
+        gap: 70px;
+        align-items: center;
+        
+        a{
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 36px;
+            text-decoration: none;
+            color: rgb(42, 47, 52);
+
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.hidden{
+    transform: translateY(-16vh);
+}

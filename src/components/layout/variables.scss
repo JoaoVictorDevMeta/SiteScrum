@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Comfortaa&family=IBM+Plex+Serif&family=Imprima&family=Inconsolata&family=Inter&family=Monoton&family=Montserrat&family=Red+Hat+Display:wght@600;700&family=Smooch+Sans&family=Ysabeau+SC&display=swap');
+
+:root{
+    --color-theme-dark: #0A4D68;
+    --color-theme-light: #74fadf;
+    --color-theme-medium: #00c8ff;
+    --color-theme-emphasis: #0ab1cb;
+    --color-text-dark: rgb(42, 47, 52);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+    list-style: none;
+}

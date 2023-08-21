@@ -1,0 +1,68 @@
+@import "../layout/variables.scss";
+
+.videos{
+    height: 90vh;
+    margin-bottom: 20vh;
+
+    .title{
+        height: 24vh;
+        font-size: 34px;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .arrow-left {
+            width: 0; 
+            height: 0; 
+            margin-right: 20px;
+            border-top: 30px solid transparent;
+            border-bottom: 30px solid transparent;     
+            border-right:30px solid var(--color-theme-medium); 
+        }
+
+        .arrow-right {
+            width: 0; 
+            height: 0; 
+            margin-left: 20px;
+            border-top: 30px solid transparent;
+            border-bottom: 30px solid transparent;     
+            border-left:30px solid var(--color-theme-medium); 
+        }
+    }
+}
+
+.videos-container{
+    height: 62vh;
+    position: relative;
+
+    img{
+        width: 400px;
+        position: absolute;
+
+        &:first-child{
+            bottom: 0;
+        }
+        
+    }
+    .back2{
+        right: 0;
+        top: 0;
+    }
+
+    .video1{
+        position: absolute;
+        transform: translate(25%, 15%);
+    }
+
+    .video2{
+        position: absolute;
+        right: 0;
+        position: absolute;
+        transform: translate(-25%, 15%);
+    }
+
+    iframe{
+        box-shadow: -13px 18px var(--color-theme-medium);
+    }
+}
