@@ -1,7 +1,7 @@
 # React + Vite
 
 Site para aprendizagem do metodo scrum
-Link : 
+- Link : https://site-scrum-nine.vercel.app/
 
 ## tempo de produção total: 6hrs e 21min
 
