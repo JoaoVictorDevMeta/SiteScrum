@@ -1,5 +1,6 @@
 //estilos
 import "./variables.scss"
+import "./mobile.scss"
 
 //components
 import NavBar from '../navBar/NavBar.jsx';

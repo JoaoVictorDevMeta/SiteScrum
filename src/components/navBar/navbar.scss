@@ -14,6 +14,7 @@ nav {
     .logo{
         font-family: 'Red Hat Display', sans-serif;
         width: 172px;
+        height: 92px;
 
         h1{
             font-size: 56px;
@@ -41,8 +42,20 @@ nav {
             }
         }
     }
+
+    .mobile{
+        display: none;
+    }
+
+    .normal{
+        display: flex;
+    }
 }
 
 .hidden{
     transform: translateY(-16vh);
+}
+
+.off {
+    display: none;
 }

@@ -56,57 +56,58 @@
         width: 1100px;
         overflow-x: hidden;
         height: 110vh;
-    }
 
-    .info-text{/*
-        display: flex;
-        position: absolute;
-        left: 0;*/
-
-        display: flex;
-        width: 4400px;
-        height: 100%;
-        
-    
         div{/*
-            margin: 40px 100px;
-            height: 110vh;
-            //position: absolute;
-            //left: 0;
-            padding: 20px 8% 0px 90px;
-            width: 85vw;
-            border: 1px solid;
-            border-radius: 10px;*/
+            display: flex;
             position: absolute;
-            width: 1100px;
-            height: 100%;
-            border: 1px solid;
-            padding: 20px 8% 0px 90px;
-            border-radius: 10px;
-            margin-top: 40px;
+            left: 0;*/
     
-            h2{
-                font-size: 36px;
-                font-family: "Red Hat Display", sans-serif;
-                margin-bottom: 10px;
-
-                span {
-                    color: var(--color-theme-dark);
-                    font-size: 48px;
-                    padding-right: 30px;
-                    font-family: "Montserrat", sans-serif;
+            display: flex;
+            width: 4400px;
+            height: 100%;
+            flex-direction: column;
+        
+            div{/*
+                margin: 40px 100px;
+                height: 110vh;
+                //position: absolute;
+                //left: 0;
+                padding: 20px 8% 0px 90px;
+                width: 85vw;
+                border: 1px solid;
+                border-radius: 10px;*/
+                position: absolute;
+                width: 1100px;
+                height: 100%;
+                border: 1px solid;
+                padding: 20px 8% 0px 90px;
+                border-radius: 10px;
+                margin-top: 40px;
+        
+                h2{
+                    font-size: 36px;
+                    font-family: "Red Hat Display", sans-serif;
+                    margin-bottom: 10px;
+    
+                    span {
+                        color: var(--color-theme-dark);
+                        font-size: 48px;
+                        padding-right: 30px;
+                        font-family: "Montserrat", sans-serif;
+                    }
+                }
+        
+                p{
+                    font-size: 18px;
+                    margin-bottom: 60px;
+                    color: #494949;
+                    font-family: sans-serif;
+                    word-spacing: 11px;
+                    margin-left: 20px;
                 }
             }
-    
-            p{
-                font-size: 18px;
-                margin-bottom: 60px;
-                color: #494949;
-                font-family: sans-serif;
-                word-spacing: 11px;
-                margin-left: 20px;
-            }
         }
+    
     }
 
 

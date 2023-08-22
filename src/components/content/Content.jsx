@@ -9,7 +9,7 @@ const Content = () => {
 
 
   return (
-    <section className="conteudo" id="Conteudo">
+    <section className={infoState == 1 ? 'big-container conteudo' : " conteudo"} id="Conteudo">
         <h1>Conteudo sobre Scrum</h1>
         <ul>       
             <li><button onClick={() => setInfoState(0)}>Papéis Fundamentais</button></li>
@@ -18,10 +18,10 @@ const Content = () => {
         </ul>
 
         <div className="content-information">
-            <div className='info-text'>
+            <div>
                 {data.map((data) => {
                 return(
-                    <div key={data.id} id={(data.id)} className={(data.id) == infoState ? 'showInfo' : 'hiddenInfo'}>
+                    <div key={data.id} id={"co" + (data.id)} className={(data.id) == infoState ? 'showInfo' : 'hiddenInfo'}>
                     <h2><span>1.</span>{data.title}</h2>
                     <p>{data.paragraph1}</p>
                     <h2><span>2.</span>{data.title2}</h2>

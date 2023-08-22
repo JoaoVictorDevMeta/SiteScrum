@@ -1,0 +1,216 @@
+@media screen and (max-width:769px){
+
+    #root{
+        overflow-x: hidden; 
+    }
+
+    img{
+        display: none;
+    }
+
+    svg {       
+        font-size: 40px;
+    }
+
+    .mobile{
+        display: flex !important;
+        align-items: center;
+    }
+
+
+    nav{
+        height: 20vh !important;
+        background: white !important;
+        position: fixed !important;
+        //width: 100vw;
+        width: 100vw !important;
+        align-items: center;
+        padding: 20px !important;
+        
+        ul {
+            transition: 0.5s;
+            position: fixed;
+            width: 100%;
+            right: 0;
+            flex-direction: column;
+            top: 20vh;
+            height: 80vh;
+            gap: 50px !important;
+            padding-top: 70px;
+            background: white;
+            box-shadow: 0px 10px 10px gray;
+            z-index: 99;
+        }
+
+        .logo{
+            font-family: 'Red Hat Display', sans-serif;
+            width: 160px !important;
+            height: 66px !important;
+
+            h1{
+                font-size: 40px !important;
+            }
+            h2{
+                font-size: 32px !important;
+            }
+        }
+    }
+
+    main{
+        section{
+            width: 100vw !important;
+        }
+
+        .home{
+            padding: 0;
+            height: 100vh;
+            .info{
+                width: 100%;
+                padding: 40px;
+                h1{
+                    font-size: 32px;
+                }
+
+                h2{
+                    font-size: 20px;
+                    height: 50px;
+                }
+
+                p{
+                    font-size: 14px;
+                    margin-bottom: 50px;
+                }
+
+                a{
+                    position: absolute;
+                    //transform: translateX(25%);
+                    margin: 0;
+                    padding: 20px 25px;
+                    font-size: 20px;
+                }
+            }
+
+            .image{
+                display: none;
+            }
+        }
+
+        .about{
+            height: 120vh;
+            padding: 0;
+            .about-image{
+                display: none;
+            }
+            div{
+                width: 100%;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 32px;
+                }
+                h2{
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .conteudo{
+            padding: 40px 0px;
+
+            ul{
+                height: 93px;
+
+                button{
+                    font-size: 18px;
+                }
+            }
+
+            h1{
+                font-size: 28px;
+            }
+
+            .content-information{
+                width: 400px;
+
+                div{
+                    div{
+                        width: 400px;
+                        padding: 20px;
+
+                        h2{
+                            font-size: 20px;
+
+                            span{
+                                font-size: 28px;
+                            }
+                        }
+
+                        p{
+                            font-size: 14px;
+                            word-spacing: 2px;
+                            text-align: justify;
+                        }
+                    }
+
+                    #co1{
+                        height: 147vh;
+                    }
+                }
+            }
+        }
+
+        .videos{
+            margin-bottom: 0;
+            .title{
+                font-size: 23px;
+                text-align: center;
+            }
+        }
+
+        .videosMobile{
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            a{
+                font-size: 28px;
+                text-decoration: none;
+                font-family: 'Montserrat';
+                color: var(--color-theme-dark);
+
+                span{
+                    font-size: 34px;
+                    font-weight: bold;
+                    margin-right: 15px;
+                }
+            }
+        }
+        .videos-container{
+            display: none;
+        }
+    }
+
+    footer{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .arrow-left{
+        display: none;
+    }
+    .arrow-right{
+        display: none;
+    }
+
+    .big-container{
+        height: 190vh !important;
+    }
+
+    .hidden{
+        transform: translateY(-21vh) !important;
+    }
+
+    .barHide{
+        transform: translateY(-130%);
+    }   
+}
