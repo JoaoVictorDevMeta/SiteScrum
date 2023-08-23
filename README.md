@@ -3,7 +3,7 @@
 Site para aprendizagem do metodo scrum
 - Link : https://site-scrum-nine.vercel.app/
 
-## tempo de produção total: 3hrs e 21min
+## tempo de produção total: +- 4hrs e 20min
 
 # Como fazer download e utilziar o site pelo codigo:
 
